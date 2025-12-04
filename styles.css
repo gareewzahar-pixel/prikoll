@@ -37,3 +37,45 @@
     background-color: rgb(0, 0, 0);
     color: red;
 }
+
+body {
+    background-color: rgb(18, 195, 160);
+}
+
+.buttom {
+    color: blue;
+    /* цвет текста */
+    font-size: 32px;
+    /* размер текста */
+    text-decoration: none;
+    /* убирает подчеркивание */
+    background-color: rgb(255, 208, 0);
+    /* цвет фона */
+    padding: 20px 20px; 
+    /* внутренние отступы */
+    border-radius: 20px;
+    /* скругление углов */
+    display: inline-block;
+    border: 2px solid blue;
+    /* рамка */
+    margin: 20px 20px;
+    /* внешние отступы */
+    transition: background-color 0.3s, color 0.3s;
+    /* Плавный переход */
+}
+
+.buttom:hover {
+    /* эффект при наведении */
+    background-color: blue;
+    color: white;
+}
+
+.buttom:active {
+    /* эффект при нажатии */
+    background-color: rgb(0, 0, 0);
+    color: blue;
+}
+
+.pesiki {
+    font-size: 100px;
+}
